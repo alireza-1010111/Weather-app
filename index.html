@@ -7,6 +7,35 @@
     <title>Botostart | Weather App</title>
   </head>
   <body>
+    <div id="search">
+      <img src="./img/location.png" alt="location icon" id="location" />
+      <input type="text" placeholder="Enter city name" />
+      <button>Search</button>
+    </div>
+    <div id="weather">
+      <span id="loader">
+        <div class="container">
+          <div class="cloud front">
+            <span class="left-front"></span>
+            <span class="right-front"></span>
+          </div>
+          <span class="sun sunshine"></span>
+          <span class="sun"></span>
+          <div class="cloud back">
+            <span class="left-back"></span>
+            <span class="right-back"></span>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div id="forecast"></div>
+    <div id="modal">
+      <div>
+        <div><span id="modal-button">✕</span></div>
+        <div><p>test</p></div>
+      </div>
+    </div>
+
     <script type="module" src="./app.js"></script>
   </body>
 </html>
